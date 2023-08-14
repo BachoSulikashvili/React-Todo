@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(9, 50, 128);
+  color: white;
+}
+.todo {
+  width: 600px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.todo h1 {
+  font-size: 80px;
+}
+.text {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+}
+button {
+  width: 80px;
+  height: 40px;
+  transform: translate(10px, -2px);
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: rgb(8, 31, 73);
+  cursor: pointer;
+}
+li {
+  display: flex;
+  font-size: 50px;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 110px;
+}
+.check {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+span {
+  margin-left: 40px;
+}
+#btn {
+  margin-top: 5%;
+}
